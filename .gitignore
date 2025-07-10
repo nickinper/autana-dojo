@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+data/
+backups/
+
+# Models
+models/weights/
+models/checkpoints/
+*.pth
+*.pkl
+*.h5
+
+# Discoveries
+discoveries/raw/
+discoveries/unverified/
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+config/secrets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+*.tmp
+*.bak
+.cache/
+temp/
+
+# Node (for web interfaces)
+node_modules/
+package-lock.json
+
+# Deployment
+deploy/secrets/
+deploy/credentials/

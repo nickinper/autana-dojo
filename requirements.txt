@@ -1,0 +1,31 @@
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+
+# API Framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# Pattern Processing
+sympy>=1.12  # For mathematical operations
+networkx>=3.0  # For pattern relationships
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+click>=8.1.0  # CLI tools
+rich>=13.0.0  # Beautiful terminal output
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
